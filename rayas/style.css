@@ -1,0 +1,24 @@
+body {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 150px;
+}
+
+.recorte {
+  width: 52px;
+  height: 253px;
+  border: 11px solid #fff;
+  border-radius: 10px;
+  margin: 123px;
+  transform: rotate(360deg);
+  animation: julian 0.5s linear  infinite;
+}
+
+@keyframes julian {
+  100% {
+    background: repeating-linear-gradient(45deg, #f00, #f00 10px, #000 10px, #000 20px);
+  }
+    
+}
